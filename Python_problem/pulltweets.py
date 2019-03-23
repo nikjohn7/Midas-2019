@@ -7,10 +7,10 @@ from tweepy.parsers import JSONParser
 """ last_modified: 23 Mar 2019 """
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # Provide Twitter API access credentials here
-my_consumer_key = '5u30Uajqyk5abLuTGl3PvgYdt'
-my_consumer_secret = '3sktmsmf2kpY38AUAxYs24MotarRJwDVlI25xjIOUZcqMAt7fi'
-my_access_key = '3160125229-j8cjuS6mIKwWqSeCREHC8kabFzHsUwxuwfJB8nR'
-my_access_secret = 'QZRIudu89HtPEhATsZf2Ozgn3ZuexC74WqBSA3m6cYdqb'
+my_consumer_key = ''
+my_consumer_secret = ''
+my_access_key = ''
+my_access_secret = ''
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=
 
 
