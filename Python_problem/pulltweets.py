@@ -179,7 +179,8 @@ class TweetFetcher:
                 if ("media" in tweet['entities']):
                     media = tweet['entities']["media"]
                     photos = [(x['display_url']) for x in media if x['type']=="photo"]
-                tweets.append(["'" + tweet['full_text'] + "'", str(tweet['created_at']), tweet['favorite_count'], tweet['retweet_count'], len(photos)])
+                tweets.append(["'" + tweet['full_text'] + "'", str(tweet['created_at']), 
+                               tweet['favorite_count'], tweet['retweet_count'], len(photos)])
         return tweets
 
 
